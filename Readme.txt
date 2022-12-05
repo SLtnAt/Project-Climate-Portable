@@ -3,7 +3,7 @@
   MQTT Client
 	Host		= test.mosquitto.org
 	Port		= 1883
-	Client Name = porogapit-master
+	Client Name 	= porogapit-master
   
   MQTT Topics
     Slave 1 (Wemos D1 Mini Pro)
@@ -11,15 +11,15 @@
 	pressure 		= porogapit/pres1
 	altitude 		= porogapit/alti1
 	rssi 			= porogapit/rssi1
-	slave1 		= porogapit/snr1
+	slave1 			= porogapit/snr1
 
    Slave 2 (ESP32 v1)
 	temperature		= porogapit/temp2
 	humidity		= porogapit/humi2
-	soil moisture	= porogapit/soil_mois2
+	soil moisture		= porogapit/soil_mois2
 	soil temperature	= porogapit/soil_temp2
-	soil ec		= porogapit/soil_ec2
-	soil ph		= porogapit/soil_ph2
+	soil ec			= porogapit/soil_ec2
+	soil ph			= porogapit/soil_ph2
 	rssi			= porogapit/rssi2
 	snr			= porogapit/snr2
 
